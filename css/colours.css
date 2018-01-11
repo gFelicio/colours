@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  height: -webkit-fill-available;
+}
+
+.box {
+  width: 50%;
+  line-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
