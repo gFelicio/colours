@@ -1,4 +1,4 @@
-var c = document.getElementById('container');
+var container = document.getElementById('container');
 
 var colourIsLight = function (r, g, b) {
 
@@ -43,5 +43,5 @@ for (var i = 0; i < 12; i += 1) {
 
   el.setAttribute('style', 'background-color: ' + bgColour + '; color: ' + textColour);
 
-  c.appendChild(el);
+  container.appendChild(el);
 }
